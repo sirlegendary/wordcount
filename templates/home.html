@@ -1,0 +1,7 @@
+<a href="/"><h1>Welcome</h1></a>
+<a href="{% url 'about' %}"><h1>About</h1></a>
+<form action="{% url 'count' %}">
+    <textarea name="fulltext" cols="50" rows="10"></textarea>
+    <br/> <br/>
+    <input type="submit" value="Count!" />
+</form>
